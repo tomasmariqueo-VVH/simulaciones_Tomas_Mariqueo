@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Courier New', monospace;
+    outline: solid 0.5px red;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5%;
+    width: 100%;
+    max-width: 1320px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    width: 100%;
+    max-width: 265px;
+    min-width: 250px;
+}
+
+.contenedor-logo{
+    width: 50%;
+}
+
+.contenedor-logo img{
+    width: 100%;
+}
+
+.contenedor-titulo{
+    width: 100%;
+}
+
+h1 span{
+color: #185192;
+font-size: 40px;
+}
+
