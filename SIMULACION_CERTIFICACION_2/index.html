@@ -14,7 +14,7 @@
         <nav class="nav">
             <div class="logo">
                 <div class="contenedor-logo">
-                    <img src="" alt="logo">
+                    <img src="static/images/novelas.png" alt="logo">
                 </div>
                 <div class="contenedor-titulo">
                     <h1>Biblioteca <span>Horizonte</span></h1>
@@ -23,17 +23,17 @@
             <div class="derechas">
                 <div class="input">
                     <input id="email" type="text" placeholder="Email">
-                    <button id="login">Login</button>
+                    <button id="login">Ingresar</button>
                 </div>
                 <div class="compras">
                     <div class="contenedor-compras">
-                        <img src="" alt="libritos">
+                        <img src="static/images/books.png" alt="libritos">
                     </div>
                     <div class="contenedor-libros">
-                        <p>Libros seleccionados:</p>
+                        <p>Libros seleccionados</p>
                     </div>
                     <div class="contador">
-                        <strong id="valor-contador">0</strong>
+                        <strong id="valor-contador">:0</strong>
                     </div>
                 </div>
             </div>
@@ -42,37 +42,37 @@
     <main class="main">
         <div class="barra-sugerencias">
             <div class="caja">
-                <img src="" alt="">
+                <img src="static/images/novelas.png" alt="novelas">
                 <p class="sub-titulo">
                     Novelas
                 </p>
             </div>
             <div class="caja">
-                <img src="" alt="">
+                <img src="static/images/ciencia.png" alt="ciencia">
                 <p class="sub-titulo">
                     Ciencia
                 </p>
             </div>
             <div class="caja">
-                <img src="" alt="">
+                <img src="static/images/historia.png" alt="historia">
                 <p class="sub-titulo">
                     Historia
                 </p>
             </div>
             <div class="caja">
-                <img src="" alt="">
+                <img src="static/images/tecnologia.png" alt="tecnología">
                 <p class="sub-titulo">
                     Tecnología
                 </p>
             </div>
             <div class="caja">
-                <img src="" alt="">
+                <img src="static/images/arte.png" alt="arte">
                 <p class="sub-titulo">
                     Arte
                 </p>
             </div>
             <div class="caja">
-                <img src="" alt="">
+                <img src="static/images/infantil.png" alt="infantíl">
                 <p class="sub-titulo">
                     Infantil
                 </p>
@@ -90,7 +90,7 @@
                 </div>
                 <div class="derecha">
                     <div class="contenedor-video">
-                        <video controls id="portadaCambiante" poster="static/images/">
+                        <video controls id="portadaCambiante" poster="static/images/biblioteca-horizonte1.png">
                             <source src="static/videos/video_explicativo_skillnest.mp4" type="video/mp4">
                             Tu navegador no soporta la reproducción de este video.
                         </video>
@@ -104,43 +104,51 @@
                 <h2>Libros recomendados:</h2>
                 <div class="sugerencia">
                     <div class="contenedor-imagen">
-                        <img src="" alt="imagen de ejemplo">
+                        <img src="static/images/soledad.png" alt="imagen de ejemplo">
                     </div>
-                    <div class="titulos">
-                        <h3>Cien años de soledad</h3>
-                        <p>Gabriel García Márquez</p>
+                    <div class="libro">
+                        <div class="titulos">
+                            <h3>Cien años de soledad</h3>
+                            <p>Gabriel García Márquez</p>
+                        </div>
+                        <div class="nose">
+                            <a href="#">Ver más...</a>
+                            <button id="el-boton1">+</button>
+                        </div>
                     </div>
-                    <div class="nose">
-                        <a href="#">Ver más...</a>
-                        <button id="el-boton1">+</button>
+                </div>
+
+                <div class="sugerencia">
+                    <div class="contenedor-imagen">
+                        <img src="static/images/sapiens.png" alt="imagen de ejemplo">
+                    </div>
+                    <div class="libro">
+                        <div class="titulos">
+                            <h3>Sapiens</h3>
+                            <p>Yuval Noah Harari</p>
+                        </div>
+                        <div class="nose">
+                            <a href="#">Ver más...</a>
+                            <button id="el-boton2">+</button>
+                        </div>
                     </div>
                 </div>
                 <div class="sugerencia">
                     <div class="contenedor-imagen">
-                        <img src="" alt="imagen de ejemplo">
+                        <img src="static/images/principito.png" alt="imagen de ejemplo">
                     </div>
-                    <div class="titulos">
-                        <h3>Sapiens</h3>
-                        <p>Yuval Noah Harari</p>
-                    </div>
-                    <div class="nose">
-                        <a href="#">Ver más...</a>
-                        <button id="el-boton2">+</button>
-                    </div>
-                </div>
-                <div class="sugerencia">
-                    <div class="contenedor-imagen">
-                        <img src="" alt="imagen de ejemplo">
-                    </div>
-                    <div class="titulos">
-                        <h3>El principito</h3>
-                        <p>Antonie de Saint-Exupéry</p>
-                    </div>
-                    <div class="nose">
-                        <a href="#">Ver más...</a>
-                        <button id="el-boton3">+</button>
+                    <div class="libro">
+                        <div class="titulos">
+                            <h3>El principito</h3>
+                            <p>Antonie de Saint-Exupéry</p>
+                        </div>
+                        <div class="nose">
+                            <a href="#">Ver más...</a>
+                            <button id="el-boton3">+</button>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </main>

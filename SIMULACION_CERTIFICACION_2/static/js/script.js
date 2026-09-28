@@ -22,7 +22,7 @@ login.addEventListener("click", function (event) {
 boton1.addEventListener("click", function(){
     if(boton1 !== null){
         contador++
-        carrito.textContent = contador;
+        carrito.textContent = `:${contador}`;
     } else{
         console.log("El botón no existe o no está definido")
     }
@@ -31,16 +31,25 @@ boton1.addEventListener("click", function(){
 boton2.addEventListener("click", function(){
     if(boton2 !== null){
         contador++
-        carrito.textContent = contador;
+        carrito.textContent = `:${contador}`;
+    } else{
+        console.log("El botón no existe o no está definido")
+    }
+})
+
+boton3.addEventListener("click", function(){
+    if(boton3 !== null){
+        contador++
+        carrito.textContent = `:${contador}`;
     } else{
         console.log("El botón no existe o no está definido")
     }
 })
 
 imagen.addEventListener("mouseover", function(){
-    this.src = "static/images/.png";
+    this.src = "static/images/biblioteca-horizonte2.png";
 })
 
 imagen.addEventListener("mouseout", function(){
-    this.src = "static/images/.png";
+    this.src = "static/images/biblioteca-horizonte1.png";
 })

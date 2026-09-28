@@ -1,17 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', 'Courier New', monospace;
-    outline: solid 0.5px red;
 }
 
-.header{
+.header {
     display: flex;
     flex-direction: row;
 }
 
-.nav{
+.nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,7 +23,7 @@
     flex-wrap: wrap;
 }
 
-.logo{
+.logo {
     display: flex;
     flex-direction: row;
     gap: 3%;
@@ -34,52 +33,74 @@
     flex: 1;
 }
 
-.contenedor-logo{
+.contenedor-logo {
     width: 50%;
 }
 
-.contenedor-logo img{
+.contenedor-logo img {
     width: 100%;
 }
 
-.contenedor-titulo{
+.contenedor-titulo {
     width: 100%;
     font-weight: bold;
 }
 
-h1 span{
-color: #185192;
-font-size: 40px;
+h1 span {
+    color: #185192;
+    font-size: 40px;
 }
 
-.derechas{
+.derechas {
     display: flex;
     flex-direction: row;
     gap: 5%;
     justify-content: end;
 }
 
-.input{
+.input {
     text-align: center;
     display: flex;
     flex: 2;
+    width: 100%;
+    max-width: 230px;
     height: 30px;
     margin-top: 5%;
 }
 
-.compras{
+.input input{
+    width: 100%;
+}
+
+.input button{
+    background-color: #2A5EA4;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.compras {
     display: flex;
     flex: 1;
     margin-top: 4.5%;
 }
 
-.main{
+.contenedor-compras {
+    width: 100%;
+}
+
+.contenedor-compras img {
+    width: 30px;
+    height: 30px;
+}
+
+.main {
     display: flex;
     flex-direction: column;
     padding: 1%;
 }
 
-.barra-sugerencias{
+.barra-sugerencias {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -91,7 +112,7 @@ font-size: 40px;
     justify-content: space-between;
 }
 
-.caja{
+.caja {
     flex: 1;
     width: 100%;
     max-width: 200px;
@@ -100,7 +121,11 @@ font-size: 40px;
     font-weight: bold;
 }
 
-.lo-principal{
+.caja img {
+    width: 50%
+}
+
+.lo-principal {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -108,40 +133,106 @@ font-size: 40px;
     gap: 2%;
 }
 
-.principal{
+.principal {
     display: flex;
     flex-direction: row;
-    flex: 3;
+    flex: 2;
     gap: 2%;
     background-color: #E4E4E4;
     padding: 2%;
 }
 
-.izquierda{
+.izquierda {
     display: flex;
     flex-direction: column;
     flex: 4;
+    margin-top: 5%;
 }
 
-.derecha{
+.izquierda p{
+    margin-top: 10%;
+}
+
+.derecha {
     display: flex;
     flex-direction: column;
     flex: 7;
 }
 
-.contenedor-video{
+.contenedor-video {
     width: 100%;
     max-width: 600px;
     min-width: auto;
 }
 
-.contenedor-video video{
+.contenedor-video video {
     width: 100%;
 }
 
-.sugerencias{
+.sugerencias {
     display: flex;
     flex-direction: column;
     flex: 1;
     gap: 3%;
+}
+
+.sugerencia {
+    outline: solid 2px #E4E4E4;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+}
+
+.libro {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 2%;
+    gap: 35%;
+    font-size: medium
+}
+
+.titulos h3{
+    font-weight: bolder;
+}
+
+.titulos a{
+color: gray;
+}
+
+.nose {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nose a{
+    color: #4175B8;
+}
+
+.nose button{
+    background-color: #18344F;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    font-size: larger;
+}
+
+.contenedor-imagen {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    justify-content: center;
+}
+
+.contenedor-imagen img {
+    width: 70%;
+}
+
+.nose {
+    display: flex;
+    justify-content: space-between;
 }
