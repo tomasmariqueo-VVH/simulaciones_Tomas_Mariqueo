@@ -47,9 +47,10 @@ boton3.addEventListener("click", function(){
 })
 
 imagen.addEventListener("mouseover", function(){
-    this.src = "static/images/biblioteca-horizonte2.png";
+    this.poster = "static/images/biblioteca-horizonte2.png";
+    this.src = "static/videos/video_explicativo_skillnest.mp4";
 })
 
 imagen.addEventListener("mouseout", function(){
-    this.src = "static/images/biblioteca-horizonte1.png";
+    this.poster = "static/images/biblioteca-horizonte1.png";
 })
