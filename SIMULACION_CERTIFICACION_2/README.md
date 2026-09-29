@@ -6,16 +6,6 @@
 
 Este desarrollo simula la experiencia de usuario (UX) de una plataforma de descubrimiento y selección de libros en línea, combinando maquetación semántica, diseño adaptativo y lógica interactiva.
 
-## Características Principales
-
-* **Barra de Navegación Funcional:** Incluye inicio de sesión simulado por correo electrónico y un contador interactivo de libros seleccionados.
-
-* **Exploración por Categorías:** Módulo de sugerencias temáticas (Novelas, Ciencia, Historia, Tecnología, Arte e Infantil).
-
-* **Sección Principal Interactiva:** Presentación con reproductor de video promocional y explicativo integrado.
-
-* **Catálogo de Recomendaciones:** Lista de obras destacadas (*Cien años de soledad*, *Sapiens*, *El principito*) con botones para agregar títulos a la selección del usuario.
-
 ## Tecnologías y Herramientas Utilizadas
 
 El desarrollo de esta simulación web se llevó a cabo utilizando las siguientes tecnologías y herramientas estándar de la industria:
@@ -53,4 +43,4 @@ biblioteca-horizonte/
 ## Autor
 
 * **Nombre:** Tomás Mariqueo
-* **Rol:** Desarrollador Frontend / Creador del Proyecto
+* **Rol:** Desarrollador Frontend Jr.
